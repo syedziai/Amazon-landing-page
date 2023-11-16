@@ -1,0 +1,218 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f1111;
+  margin: 0px;
+  height: 12vh;
+}
+
+.logo {
+  margin: 5px;
+}
+
+.search-bar input {
+  width: 400px;
+  padding: 10px;
+  /* border: 2px solid gray; */
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: "Amazon";
+  outline: none;
+  transition: all ease 0.2s;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.fa-search {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+}
+
+input:hover {
+  box-shadow: rgba(225, 255, 255, 0.7) 0px 10px 20px;
+  transform: translateY(-5px);
+}
+
+.select-language {
+  display: flex;
+  height: 18px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.select-language .india-flag {
+  padding: 0px 4px;
+  margin-left: 10px;
+}
+
+.select-language .menu {
+  display: flex;
+  gap: 20px;
+  margin: 0px 10px;
+}
+
+.menu a {
+  margin: 5px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Amazon Ember", Arial;
+}
+
+.select-address {
+  display: flex;
+  height: 12vh;
+  font-family: "Amazon Ember", Arial;
+  font-size: 14px;
+  padding: 20px;
+  margin: auto;
+}
+
+.select-address #nav-global-location-popover-link {
+  display: flex;
+  height: 12px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-decoration: none;
+}
+
+#nav-packard-loc-icon {
+  display: flex;
+  height: 20px;
+  margin-top: 15px;
+  width: 15px;
+  position: static;
+  color: white;
+}
+
+#glow-ingress-block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: static;
+}
+
+#glow-ingress-block .nav-line-1,
+.nav-line-2 {
+  display: block;
+}
+
+#glow-ingress-block .nav-line-1 {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(204, 204, 204);
+}
+
+#glow-ingress-block .nav-line-2 {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+nav {
+  height: 6vh;
+  background-color: rgb(35, 47, 62);
+}
+
+nav .All {
+  padding: 10px;
+}
+
+nav div a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  height: 12px;
+  line-height: 12px;
+  text-wrap: nowrap;
+  text-decoration-style: solid;
+}
+
+.makeup img {
+  width: 100%;
+  height: 82vh;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  /* padding: 12px 5%; */
+}
+
+.left-sidebar {
+  flex:1;
+  position: sticky;
+  top: -100vh;
+  align-self: flex-start;
+}
+
+.main-content {
+  flex-basis: 2;
+}
+
+.right-sidebar {
+  flex:1;
+  position: sticky;
+  top: -100vh;
+}
+.card-deck {
+  display: flex;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  height: 80vh;
+  margin: 15px 20px;
+  border-radius: 10px;
+  padding: 12px 8px;
+  transition: transform 0.5s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  padding: 5px 5px;
+  margin: 0px;
+}
+.card-container h4 {
+  text-align: center;
+  margin: 2px;
+  padding: 6px 4px;
+}
+
+.card-container span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-container .card-mrp {
+  color: gray;
+  font-weight: 200;
+  font-size: 12px;
+}
+.card-container p {
+  margin: 5px 5px;
+  text-align: center;
+}
+
+.card-container .prime-logo {
+  align-items: center;
+  margin: 0px 25px;
+}
